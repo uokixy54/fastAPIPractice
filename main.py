@@ -4,7 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "https://uokixy54.github.io/ProjectStaticQuiz-/"  # GitHub PagesのURL
+    "http://localhost:3000",
+    "https://uokixy54.github.io/ProjectStaticQuiz-/",  # GitHub PagesのURL
+    "https://testpythonapi.herokuapp.com"
 ]
 
 app.add_middleware(
