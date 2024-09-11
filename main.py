@@ -4,9 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
-    "https://uokixy54.github.io/ProjectStaticQuiz-/",  # GitHub PagesのURL
-    "https://uokixy54.github.io",
+    "http://localhost:3000",                            # React Appのテスト用URL
+    "https://uokixy54.github.io/ProjectStaticQuiz-/",   # GitHub PagesのURL
     "https://testpythonapi.herokuapp.com"
 ]
 
