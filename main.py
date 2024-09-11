@@ -5,7 +5,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://uokixy54.github.io",  # GitHub PagesのURL
+    "https://uokixy54.github.io/ProjectStaticQuiz-/",  # GitHub PagesのURL
+    "https://uokixy54.github.io",
     "https://testpythonapi.herokuapp.com"
 ]
 
