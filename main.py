@@ -19,4 +19,4 @@ app.add_middleware(
 
 @app.get("/sample")
 async def read_root():
-    return {"message": "First FastAPI!!"}
+    return {"message": "FastAPI Test"}
