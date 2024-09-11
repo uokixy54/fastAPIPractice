@@ -19,6 +19,5 @@ app.add_middleware(
 )
 
 @app.get("/sample")
-def read_root():
-    print("call API!")
+async def read_root():
     return {"message": "First FastAPI!!"}
